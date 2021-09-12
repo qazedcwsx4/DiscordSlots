@@ -7,11 +7,7 @@ import scala.concurrent.Await
 import scala.concurrent.duration.Duration
 
 object Main extends App {
-  def add(x: Int, y: Int): Int = x + y
-
-  val token = ""
-
-  val clientSettings = ClientSettings(token)
+  val clientSettings = ClientSettings(Config.DiscordKey)
   val client = Await.result(clientSettings.createClient(), Duration.Inf)
 
   client.onEventSideEffectsIgnore {
