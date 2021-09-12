@@ -1,7 +1,7 @@
 package org.qaze
-package example
+package bot
 
-import example.slots.Slots
+import bot.slots.Slots
 
 import ackcord.Requests
 import ackcord.commands.{CommandController, NamedCommand}

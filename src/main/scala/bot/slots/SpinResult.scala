@@ -1,7 +1,7 @@
 package org.qaze
-package example.slots
+package bot.slots
 
-import example.slots.Symbol.Symbol
+import bot.slots.Symbol.Symbol
 
 import scala.Function.tupled
 

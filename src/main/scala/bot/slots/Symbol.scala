@@ -1,5 +1,5 @@
 package org.qaze
-package example.slots
+package bot.slots
 
 object Symbol extends Enumeration {
   type Symbol = Value

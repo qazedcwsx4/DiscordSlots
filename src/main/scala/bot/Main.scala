@@ -1,5 +1,5 @@
 package org.qaze
-package example
+package bot
 
 import ackcord.{APIMessage, ClientSettings}
 
